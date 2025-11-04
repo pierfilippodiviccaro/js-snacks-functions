@@ -1,7 +1,7 @@
 /* Scrivi una funzione che accetti un'array di stringhe e una lettera e restituisca un array contenente solo le parole che iniziano con quella lettera */
 //dichiarazione di variabili
-const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
-const solamenteA = onlyA (names, "A")
+const nomi = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
+const solamenteA = onlyA (nomi, "A")
 
 // Dichiara la funzione qui.
 function onlyA (names, letter){
