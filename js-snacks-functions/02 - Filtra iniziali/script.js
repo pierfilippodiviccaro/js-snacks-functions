@@ -11,10 +11,10 @@ function onlyA (names, letter){
         if(names[i][0] == letter ){
             solamenteA.push(names[i])
         }
-        return solamenteA;
         
-    
+        
     }
+    return solamenteA;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
