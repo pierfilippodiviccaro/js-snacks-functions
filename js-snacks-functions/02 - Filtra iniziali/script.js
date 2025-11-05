@@ -6,7 +6,7 @@ const solamenteA = onlyA (nomi, "A")
 // Dichiara la funzione qui.
 function onlyA (names, letter){
     let solamenteA=[]
-    for(i=0; i < names.length; i++){
+    for(let i=0; i < names.length; i++){
         
         if(names[i][0] == letter ){
             solamenteA.push(names[i])
